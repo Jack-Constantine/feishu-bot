@@ -2,7 +2,7 @@ name: Daily Feishu Message
 
 on:
   schedule:
-    - cron: "30 15 * * *"
+    - cron: "*/5 * * * *"
 
 
 jobs:
