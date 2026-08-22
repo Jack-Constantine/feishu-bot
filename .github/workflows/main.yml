@@ -3,7 +3,6 @@ name: Daily Feishu Message
 on:
   schedule:
     - cron: "30 15 * * *"
-  workflow_dispatch:
 
 
 jobs:
