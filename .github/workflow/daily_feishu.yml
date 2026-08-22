@@ -33,5 +33,8 @@ jobs:
 
 
       - name: Send Feishu Message
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+
         run: |
           python send_feishu.py
