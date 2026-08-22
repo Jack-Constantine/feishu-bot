@@ -26,5 +26,5 @@ def send_message(text):
 
 if __name__ == "__main__":
     send_message(
-        "每天喜欢pp自动提醒中"
+        "每隔1分钟自动喜欢pp提醒中"
     )
